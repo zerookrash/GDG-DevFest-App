@@ -56,28 +56,28 @@ class HomeFront extends StatelessWidget {
             onPressed: () =>
                 Navigator.pushNamed(context, SpeakerPage.routeName),
           ),
-          RaisedButton(
-            child: Text("Sponsors"),
-            shape: StadiumBorder(),
-            color: Colors.orange,
-            colorBrightness: Brightness.dark,
-            onPressed: () =>
-                Navigator.pushNamed(context, SponsorPage.routeName),
-          ),
-          RaisedButton(
-            child: Text("Team"),
-            shape: StadiumBorder(),
-            color: Colors.purple,
-            colorBrightness: Brightness.dark,
-            onPressed: () => Navigator.pushNamed(context, TeamPage.routeName),
-          ),
-          RaisedButton(
-            child: Text("FAQ"),
-            shape: StadiumBorder(),
-            color: Colors.brown,
-            colorBrightness: Brightness.dark,
-            onPressed: () => Navigator.pushNamed(context, FaqPage.routeName),
-          ),
+          // RaisedButton(
+          //   child: Text("Sponsors"),
+          //   shape: StadiumBorder(),
+          //   color: Colors.orange,
+          //   colorBrightness: Brightness.dark,
+          //   onPressed: () =>
+          //       Navigator.pushNamed(context, SponsorPage.routeName),
+          // ),
+          // RaisedButton(
+          //   child: Text("Team"),
+          //   shape: StadiumBorder(),
+          //   color: Colors.purple,
+          //   colorBrightness: Brightness.dark,
+          //   onPressed: () => Navigator.pushNamed(context, TeamPage.routeName),
+          // ),
+          // RaisedButton(
+          //   child: Text("FAQ"),
+          //   shape: StadiumBorder(),
+          //   color: Colors.brown,
+          //   colorBrightness: Brightness.dark,
+          //   onPressed: () => Navigator.pushNamed(context, FaqPage.routeName),
+          // ),
           RaisedButton(
             child: Text("Locate Us"),
             shape: StadiumBorder(),
@@ -156,27 +156,27 @@ class HomeFront extends StatelessWidget {
                 _launchURL("https://linkedin.com/in/imthepk");
               },
             ),
-            IconButton(
-              icon: Icon(FontAwesomeIcons.youtube),
-              onPressed: () async {
-                await _launchURL("https://youtube.com/mtechviral");
-              },
-            ),
-            IconButton(
-              icon: Icon(FontAwesomeIcons.meetup),
-              onPressed: () async {
-                await _launchURL("https://meetup.com/");
-              },
-            ),
-            IconButton(
-              icon: Icon(FontAwesomeIcons.envelope),
-              onPressed: () async {
-                var emailUrl =
-                    '''mailto:mtechviral@gmail.com?subject=Support Needed For DevFest App&body={Name: Pawan Kumar},Email: pawan221b@gmail.com}''';
-                var out = Uri.encodeFull(emailUrl);
-                await _launchURL(out);
-              },
-            ),
+            // IconButton(
+            //   icon: Icon(FontAwesomeIcons.youtube),
+            //   onPressed: () async {
+            //     await _launchURL("https://youtube.com/mtechviral");
+            //   },
+            // ),
+            // IconButton(
+            //   icon: Icon(FontAwesomeIcons.meetup),
+            //   onPressed: () async {
+            //     await _launchURL("https://meetup.com/");
+            //   },
+            // ),
+            // IconButton(
+            //   icon: Icon(FontAwesomeIcons.envelope),
+            //   onPressed: () async {
+            //     var emailUrl =
+            //         '''mailto:mtechviral@gmail.com?subject=Support Needed For DevFest App&body={Name: Pawan Kumar},Email: pawan221b@gmail.com}''';
+            //     var out = Uri.encodeFull(emailUrl);
+            //     await _launchURL(out);
+            //   },
+            // ),
           ],
         ),
       );

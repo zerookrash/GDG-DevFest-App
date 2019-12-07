@@ -3,7 +3,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class Devfest {
   static const String app_name = "Devfest";
-  static const String app_version = "Version 1.0.4";
+  static const String app_version = "Version 2.0.4";
   static const int app_version_code = 1;
   static const String app_color = "#ffd7167";
   static Color primaryAppColor = Colors.white;
@@ -37,9 +37,9 @@ class Devfest {
   static const String banner_dark = "assets/images/banner_dark.png";
 
   //*  Texts
-  static const String welcomeText = "Welcome to GDG DevFest";
+  static const String welcomeText = "Welcome to DevFest 2019 CDMX";
   static const String descText =
-      '''DevFests are community-led, developer events hosted by GDG chapters around the globe focused on community building & learning about Google’s technologies. Each DevFest is inspired by and uniquely tailored to the needs of the developer community and region that hosts it.''';
+      '''El DevFest es la celebración anual más importante del ecosistema de GDG, llevado a cabo en simultáneo en todo el mundo por más de 700 grupos de desarrolladores, emprendedores y aficionados de la tecnología. La meta primordial de un DevFest es construir comunidad aprendiendo acerca de las tecnologías de Google de la mano de expertos y líderes de pensamiento.''';
 
   static const String loading_text = "Loading...";
   static const String try_again_text = "Try Again";
