@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flutter_devfest">
+    package="com.devfdevf.flutter_devfest">
 
     <!-- io.flutter.app.FlutterApplication is an android.app.Application that
          calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -13,7 +13,7 @@
         <meta-data android:name="com.google.android.geo.API_KEY"
                android:value="AIzaSyBbVhNgB0A4LxV1dFZHiUjSo43swxyGYRY"/>
         <activity
-            android:name=".MainActivity"
+            android:name="com.devfdevf.flutter_devfest.MainActivity"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
