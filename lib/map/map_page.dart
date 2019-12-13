@@ -83,16 +83,11 @@ class _MapPageState extends State<MapPage> {
                   child: RichText(
                     textAlign: TextAlign.center,
                     text: TextSpan(
-                        text: "Google Office\n",
+                        text: "Anahuac Campus Norte",
                         style: Theme.of(context).textTheme.title.copyWith(
                               fontWeight: FontWeight.bold,
                             ),
-                        children: [
-                          TextSpan(
-                              text: "Shoreline Amphitheatre, Mountain View, CA",
-                              style: Theme.of(context).textTheme.subtitle,
-                              children: []),
-                        ]),
+                        ),
                   )),
             )
           ],
