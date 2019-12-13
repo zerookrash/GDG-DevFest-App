@@ -40,7 +40,7 @@ class DevScaffold extends StatelessWidget {
               ),
               IconButton(
                 onPressed: () => Share.share(
-                    "Download the DevFest App and share with your friends.\nPlayStore -  http://"),
+                    "Download the DevFest App CDMX and share with your friends.\nPlayStore -  http://"),
                 icon: Icon(
                   Icons.share,
                   size: 20,
